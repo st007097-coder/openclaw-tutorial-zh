@@ -1,6 +1,6 @@
 # OpenClaw Tutorial 🐾
 
-![Cover](cover.png)
+![Cover](cover.jpg)
 
 > **從零開始打造你的 AI 助手 | From Zero to Hero with OpenClaw**
 
