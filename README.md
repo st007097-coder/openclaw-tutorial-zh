@@ -1,17 +1,71 @@
--e # OpenClaw Tutorial 📚
+# OpenClaw Tutorial 🐾
 
-Zero-to-hero guide for OpenClaw — from installation to advanced usage.
+![Cover](cover.png)
 
-## Contents
+> **從零開始打造你嘅 AI 助手 | From Zero to Hero with OpenClaw**
 
-- 🇹🇼 中文版教程（5 個部分，20 章）
-- 🇺🇸 英文完整版（20 章）
+一個完整嘅 OpenClaw 教學項目，由安裝到進階全攻略，中英雙語對照。
 
-## Files
+A comprehensive OpenClaw tutorial — from installation to advanced usage, in both Chinese and English.
 
-- `openclaw-tutorial-en.md` — English full version
-- `part1.md` ~ `part5.md` — Chinese version (split by chapters)
+---
 
-## License
+## 🇹🇼 中文版
+
+**5 個部分，20 個章節，涵蓋你需要知嘅一切：**
+
+| 部分 | 章節 | 內容 |
+|------|------|------|
+| Part 1 | Ch.1-3 | 入門（OpenClaw 係咩、點解用佢、基礎設定） |
+| Part 2 | Ch.4-6 | 通訊連接（Telegram、WhatsApp、Discord） |
+| Part 3 | Ch.7-11 | 進階功能（其他平台、Agent 深入、Session、記憶、Skills） |
+| Part 4 | Ch.12-15 | 工具同自動化（執行工具、Cron、手機節點、安全權限） |
+| Part 5 | Ch.16-20 | 系統管理（Web Console、進階設定、部署、疑難排解、實戰案例） |
+
+📄 檔案：[`part1.md`](part1.md) ~ [`part5.md`](part5.md)
+
+## 🇺🇸 English Version
+
+完整 20 章英文版，同中文版內容對應。
+
+📄 檔案：[`openclaw-tutorial-en.md`](openclaw-tutorial-en.md)
+
+## 📖 What is OpenClaw?
+
+OpenClaw 係一個開源嘅 AI 助手框架，可以連接你日常用嘅通訊平台（Telegram、WhatsApp、Discord），自動處理你嘅工作流程，同時保護你嘅私隱。
+
+**重點功能：**
+- 🔗 **多平台連接** — Telegram / WhatsApp / Discord / iMessage / Signal / Slack
+- 🧠 **長期記憶** — 唔會 forget 你教過佢嘅嘢
+- 🛠️ **工具整合** — 執行命令、瀏覽網頁、操作文件
+- ⏰ **自動化** — Heartbeat、Cron Jobs、Webhook
+- 🔒 **私隱優先** — Self-hosted，你嘅數據你做主
+- 📱 **手機節點** — 相機、GPS、語音
+
+## 🚀 Quick Start
+
+```bash
+# 安裝
+npm install -g openclaw
+
+# 啟動
+openclaw gateway start
+
+# 連接 Telegram
+openclaw channel add telegram
+```
+
+## 📚 Resources
+
+- [OpenClaw 官方文檔](https://docs.openclaw.ai)
+- [GitHub Repo](https://github.com/openclaw/openclaw)
+- [ClawHub Skills 市集](https://clawhub.ai)
+- [Discord 社群](https://discord.com/invite/clawd)
+
+## 📄 License
 
 MIT
+
+---
+
+*Built with ❤️ by [st007097-coder](https://github.com/st007097-coder)*
