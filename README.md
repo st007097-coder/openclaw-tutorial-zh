@@ -10,7 +10,7 @@ A comprehensive OpenClaw tutorial — from installation to advanced usage, in bo
 
 ---
 
-## 🇹🇼 中文版
+## 🇭🇰 中文版
 
 **5 個部分，20 個章節，涵蓋你需要知道的一切：**
 
